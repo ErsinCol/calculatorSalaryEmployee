@@ -42,7 +42,7 @@ public class Employee {
     }
 
     double tax_bonus_salary(){
-        return (int) (this.salary+this.bonus()-this.tax());
+        return this.salary+this.bonus()-this.tax();
     }
     @Override
     public String toString(){
